@@ -139,7 +139,7 @@ class Schema:
             context=context_value,
             root_value=root_value,
             variables=variable_values,
-            _provided_operation_name=operation_name,
+            provided_operation_name=operation_name,
         )
 
         result = await execute(
@@ -170,7 +170,7 @@ class Schema:
             context=context_value,
             root_value=root_value,
             variables=variable_values,
-            _provided_operation_name=operation_name,
+            provided_operation_name=operation_name,
         )
 
         result = execute_sync(
